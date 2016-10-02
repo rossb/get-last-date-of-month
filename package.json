@@ -1,14 +1,26 @@
 {
   "name": "get-last-date-of-month",
   "version": "1.0.0",
-  "description": "Takes a Date object and returns a Date object for the last day of its month (set to midnight local time).",
+  "description": "Takes a Date object and returns a Date object for the last day of its month.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "Ross Barnes <r@rossb.biz>",
   "license": "ISC",
   "dependencies": {
     "get-midnight-date": "^1.0.0"
-  }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rossb/get-last-date-of-month.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rossb/get-last-date-of-month/issues"
+  },
+  "homepage": "https://github.com/rossb/get-last-date-of-month#readme"
 }
