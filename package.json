@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ross Barnes <r@rossb.biz>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "get-midnight-date": "^1.0.0"
+  }
 }

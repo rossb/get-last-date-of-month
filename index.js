@@ -1,4 +1,4 @@
-const GetMidnightDate = require('./get-midnight-date');
+const GetMidnightDate = require('get-midnight-date');
 
 function GetLastDateOfMonth(date) {
 

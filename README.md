@@ -14,5 +14,5 @@ $ npm install get-last-date-of-month --save
 const GetLastDateOfMonth = require('get-last-date-of-month');
 
 let endOfMonth = GetLastDateOfMonth( new Date() );
-// Date object representing the last day of the month
+// Date object representing the last day of the current month
 ```
