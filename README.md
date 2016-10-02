@@ -1,6 +1,6 @@
 # get-last-date-of-month
 
-Takes a Date object and returns a Date object for the last day of its month.
+Takes a Date object and returns a Date object for the last day of its month (set to midnight local time).
 
 ## Install
 

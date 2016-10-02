@@ -1,7 +1,7 @@
 {
   "name": "get-last-date-of-month",
   "version": "1.0.0",
-  "description": "Takes a Date object and returns a Date object for the last day of its month.",
+  "description": "Takes a Date object and returns a Date object for the last day of its month (set to midnight local time).",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
